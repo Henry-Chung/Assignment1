@@ -1,0 +1,57 @@
+(a)
+git commit
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+        modified:   status.txt
+
+no changes added to commit
+
+git push
+
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (14/14), 3.14 KiB | 642.00 KiB/s, done.
+Total 14 (delta 0), reused 0 (delta 0)
+To https://github.com/Henry-Chung/Assignment1.git
+   f7a5d56..3826ffa  master -> master
+
+(b)
+9
+git rev-list --all --count
+
+(c)
+Date:   Thu Sep 15 10:29:34 2016 -0400
+git log -1 .gitignore
+
+(d)
+1.Allow users to develop in branches won't affect master development.
+2.Allow lots of people to develop and maintain the code in the same time.
+
+(e) 
+git log:Allow you to review and read a history of everything that happens to a repository
+git status:Display the state of the working directory and the staging area
+
+(f)
+git log --name-status Weapon.java
+
+(g)
+git log --grep=file
+
+(h)
+Inheritance:An inherited class is called a subclass of its parent class or super class. Basically, the subclass has inherited all functions and attibutes from the parent class.
+In addition, the subclass can implement and add more specific function in it.
+
+Polymorphism:Having the same name of methods with mutiple different arguments including Overloading, and Overriding.
+
+Encapsulation:People only can get information from the interface has been provided instead of getting information directly from the inside.
+
+(i)
+Integration management has its own Centralized integration, but Dictator and Lieutenants Workflow is Distributed development and integration.
+
+(j)
+Since developer need to resolve conflicts every time before pushing to the central repository, it takes a lot of time.
