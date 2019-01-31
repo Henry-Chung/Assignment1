@@ -1,3 +1,4 @@
+3.E.
 (a)
 git commit
 On branch master
@@ -55,3 +56,11 @@ Integration management has its own Centralized integration, but Dictator and Lie
 
 (j)
 Since developer need to resolve conflicts every time before pushing to the central repository, it takes a lot of time.
+
+
+
+5.
+This RoleGame prototype uses both polymorphism and encapsulation.
+
+Each weapon has its own functions hit() and hit(int armor), it's a polymorphism.
+Class BasicWeapon has a protected value, DAMAGE. Each weapon class needs to use "extend" setting the value. It's a encapsulation.
